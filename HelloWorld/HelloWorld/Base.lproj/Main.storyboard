@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="6dB-u9-bSy">
-                                <rect key="frame" x="50" y="87" width="275" height="429"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="6dB-u9-bSy">
+                                <rect key="frame" x="50" y="140.5" width="275" height="429"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLp-Q0-1Ow">
                                         <rect key="frame" x="0.0" y="0.0" width="275" height="96"/>
@@ -65,9 +65,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to my emoji dictionary " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTB-DM-oHe">
-                                <rect key="frame" x="63" y="43" width="248" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to my emoji dictionary " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTB-DM-oHe">
+                                <rect key="frame" x="63" y="70" width="248" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -78,6 +77,8 @@
                             <constraint firstItem="6dB-u9-bSy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="LDz-uT-c9U"/>
                             <constraint firstItem="M6N-z1-RSF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="RGL-4f-qzs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M6N-z1-RSF" secondAttribute="bottom" constant="12" id="SVU-gy-kdq"/>
+                            <constraint firstItem="6dB-u9-bSy" firstAttribute="top" secondItem="eTB-DM-oHe" secondAttribute="bottom" constant="50" id="VeD-c6-dMP"/>
+                            <constraint firstItem="eTB-DM-oHe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="cal-Ye-lQz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6dB-u9-bSy" secondAttribute="trailing" constant="50" id="r1J-EL-s2T"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M6N-z1-RSF" secondAttribute="trailing" constant="16" id="rJy-4i-Doz"/>
                         </constraints>

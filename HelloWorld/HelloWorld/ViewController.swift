@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 //}
     @IBAction func showMessage(sender:UIButton){
         
-        var emojiDict:[String:String] = ["👻":"Ghost","😀":"Smiley","🙀":"Scream","😎":"Cool"]
+        var emojiDict:[String:String] = ["👻":"Ghost","😀":"Smiley","🙀":"Scream","😎":"Cool","😇":"Smiling face with halo","🥳":"Party face"]
         
         let selectedButton = sender
         
